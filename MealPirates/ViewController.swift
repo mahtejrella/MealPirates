@@ -9,8 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var imageView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+            
+    }
+    
+    @IBAction func didTapButton() {
+        
     }
 }
 
