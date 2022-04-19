@@ -1710,10 +1710,10 @@
             </objects>
             <point key="canvasLocation" x="2476.9230769230767" y="-818.24644549763025"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="Rzz-ZM-KGo">
             <objects>
-                <viewController id="LKo-Zq-dRv" sceneMemberID="viewController">
+                <viewController id="LKo-Zq-dRv" customClass="MapViewController" customModule="MealPirates" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vgj-gb-KTR">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1835,10 +1835,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="mutedStandard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1UN-op-CCZ">
-                                <rect key="frame" x="41" y="110" width="309" height="313"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ywr-vz-TSO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2049,8 +2045,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0SY-ng-CFa"/>
-        <segue reference="hp7-fp-4HE"/>
+        <segue reference="SLW-Co-l6N"/>
+        <segue reference="lbh-d2-uYF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Rays" width="94" height="104"/>

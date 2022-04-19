@@ -18,6 +18,7 @@
 		C5076CAB280CCA4900ECCFA3 /* MealPiratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5076CAA280CCA4900ECCFA3 /* MealPiratesUITests.swift */; };
 		C5076CAD280CCA4900ECCFA3 /* MealPiratesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5076CAC280CCA4900ECCFA3 /* MealPiratesUITestsLaunchTests.swift */; };
 		C522E05F280EF68800B161CC /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522E05E280EF68800B161CC /* OtherViewController.swift */; };
+		C522E067280F0C5900B161CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522E066280F0C5900B161CC /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C5076CAA280CCA4900ECCFA3 /* MealPiratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPiratesUITests.swift; sourceTree = "<group>"; };
 		C5076CAC280CCA4900ECCFA3 /* MealPiratesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPiratesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C522E05E280EF68800B161CC /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		C522E066280F0C5900B161CC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				C5076C88280CCA4900ECCFA3 /* SceneDelegate.swift */,
 				C5076C8A280CCA4900ECCFA3 /* ViewController.swift */,
 				C522E05E280EF68800B161CC /* OtherViewController.swift */,
+				C522E066280F0C5900B161CC /* MapViewController.swift */,
 				C5076C92280CCA4900ECCFA3 /* Assets.xcassets */,
 				C5076C97280CCA4900ECCFA3 /* Info.plist */,
 				C5076C8F280CCA4900ECCFA3 /* MealPirates.xcdatamodeld */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5076C8B280CCA4900ECCFA3 /* ViewController.swift in Sources */,
+				C522E067280F0C5900B161CC /* MapViewController.swift in Sources */,
 				C5076C87280CCA4900ECCFA3 /* AppDelegate.swift in Sources */,
 				C5076C89280CCA4900ECCFA3 /* SceneDelegate.swift in Sources */,
 				C5076C91280CCA4900ECCFA3 /* MealPirates.xcdatamodeld in Sources */,
