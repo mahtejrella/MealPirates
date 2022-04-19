@@ -101,12 +101,11 @@
 		C5076C85280CCA4900ECCFA3 /* MealPirates */ = {
 			isa = PBXGroup;
 			children = (
+				C5DD6DC4280E93E700A2CC5A /* Storyboards */,
 				C5076C86280CCA4900ECCFA3 /* AppDelegate.swift */,
 				C5076C88280CCA4900ECCFA3 /* SceneDelegate.swift */,
 				C5076C8A280CCA4900ECCFA3 /* ViewController.swift */,
-				C5076C8C280CCA4900ECCFA3 /* Main.storyboard */,
 				C5076C92280CCA4900ECCFA3 /* Assets.xcassets */,
-				C5076C94280CCA4900ECCFA3 /* LaunchScreen.storyboard */,
 				C5076C97280CCA4900ECCFA3 /* Info.plist */,
 				C5076C8F280CCA4900ECCFA3 /* MealPirates.xcdatamodeld */,
 			);
@@ -128,6 +127,15 @@
 				C5076CAC280CCA4900ECCFA3 /* MealPiratesUITestsLaunchTests.swift */,
 			);
 			path = MealPiratesUITests;
+			sourceTree = "<group>";
+		};
+		C5DD6DC4280E93E700A2CC5A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C5076C8C280CCA4900ECCFA3 /* Main.storyboard */,
+				C5076C94280CCA4900ECCFA3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
